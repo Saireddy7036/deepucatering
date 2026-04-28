@@ -1,0 +1,81 @@
+/* HERO */
+.about-hero {
+  height: 60vh;
+  background: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0') center/cover no-repeat;
+  position: relative;
+}
+
+.about-hero .overlay {
+  background: rgba(0,0,0,0.6);
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ABOUT TEXT */
+.about {
+  padding: 50px 0;
+  text-align: center;
+  max-width: 800px;
+}
+
+.about p {
+  margin-top: 15px;
+  color: #555;
+}
+
+/* VALUES SECTION */
+.values {
+  background: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* GRID (reuse if already added) */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* CTA */
+.cta {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.cta .btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 25px;
+  background: gold;
+  color: black;
+  text-decoration: none;
+}
+
+/* FOOTER */
+.footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
